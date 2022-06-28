@@ -1,0 +1,78 @@
+body{
+    background-color: #eee;
+    text-align: center;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+img{
+    display: block;
+    margin: auto;
+}
+
+.container{
+    background-color: #fff;
+    width: 90vw;
+    margin: auto;
+    border-radius: 10px;
+}
+#img-div{
+   
+   max-width: 40vw;
+   text-align: center;
+   border-radius:4px; 
+   margin: auto;
+}
+
+#img-div >img{
+    margin: auto;
+    margin-bottom: 10px;
+    width: 90%;
+    border-radius:4px; 
+    box-shadow: 0px 3px 4px 4px rgba(0, 0, 0, 0.315);
+}
+#img-div >p{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding: 5px;  
+   font-size: 0.8rem; 
+   color: rgb(88, 88, 88);
+}
+
+#tribute-info{
+    margin: 8vw;
+    margin-top: 0;
+}
+#tribute-info >h3{
+    
+    border-bottom: 3px solid #eee;
+    padding: 10px 15px;
+
+}
+.parrafo{
+    font-size: 0.8rem;
+    text-align: justify;
+
+}
+
+.marco{
+    width: 300px;
+    margin: auto;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.imagen{
+    width: inherit;
+    border-radius: 6px 6px 0px 0px;
+}
+.descripcion{
+    
+    margin: auto;
+    text-align: justify;
+    font-size: 0.6rem;
+    
+}
